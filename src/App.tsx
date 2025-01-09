@@ -1,15 +1,19 @@
-import './App.css'
-import Cart from './app/cart'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import ProductList from './components/ProductList';
+import Cart from './components/Cart';
 
-function App() {
 
 
-  return (
-    <div>
-      <h1>Lista de Productos</h1>
-      <Cart />
-    </div>
-  )
-}
+const App: React.FC = () => {
+    return (
+            <Router>
+                <Routes>
+                    <Route path="/" element={<ProductList />} />
+                    <Route path="/cart" element={<Cart />} />
+                </Routes>
+            </Router>
 
-export default App
+    );
+};
+
+export default App;
