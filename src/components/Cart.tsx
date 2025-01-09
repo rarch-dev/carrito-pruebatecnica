@@ -1,8 +1,11 @@
 const Cart: React.FC = () => {
     return (
-        <div>
-            <h1>Cart</h1>
+        <div className="listContainer cart">
+            <h1>Carrito de compras</h1>
+            <div defaultValue="El carrito de compras esta vacio."></div>
+            <a href="/">Añadir mas productos</a>
         </div>
+        
     );
 }
 

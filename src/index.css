@@ -13,7 +13,7 @@ body {
 
 .productContainer {
   display: flex;
-  width: 1080px;
+  max-width: 1080px;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
@@ -59,4 +59,14 @@ button {
   align-items: center;
   text-align: center;
   gap: 30px;
+}
+
+a {
+  color: darkgreen;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.cart{
+  height: 100vh;
 }
