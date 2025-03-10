@@ -1,3 +1,26 @@
+# 🛍️ Shopping Cart App
+
+Una aplicación de carrito de compras moderna y responsive desarrollada con React, TypeScript y CSS moderno.
+
+## 🚀 Características
+
+- Diseño completamente responsive
+- Gestión de estado con Context API
+- Animaciones y transiciones suaves
+- Notificaciones tipo popup
+- Indicador de cantidad en el carrito
+- Diseño moderno y minimalista
+
+## 🛠️ Tecnologías Utilizadas
+
+- React 18
+- TypeScript
+- React Router v6
+- CSS Moderno (Grid, Flexbox)
+- Context API para gestión de estado
+
+## 📁 Estructura del Proyecto
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
